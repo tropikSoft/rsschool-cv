@@ -1,6 +1,6 @@
 # Oksana Promanenkova
 ### Date of birth: 20.07.1982 
-![Myphoto](/tropikSoft/rsschool-cv/blog/gh-pages/IMG_2588.jpg)
+![Myphoto](/IMG_2588.jpg)
 ## 1. Contacts
 
 * Tel: +375 29 1516414
