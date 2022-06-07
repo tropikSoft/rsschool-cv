@@ -1,1 +1,1 @@
-# rsschool-cv
+https://tropiksoft.github.io/rsschool-cv/cv
