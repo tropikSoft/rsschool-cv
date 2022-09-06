@@ -5,7 +5,7 @@
 
 * Tel: +375 29 1516414
 * E-mail: tropikSoft@yandex.ru
-* Telegram: @oksa.sw
+* Telegram: @oksa_pv
 * Discord: Oksana Promanenkova(@tropikSoft)
 ## 2. About me
 
