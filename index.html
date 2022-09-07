@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Front-end developer: Oksana Promanenkova</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header__menu">
+        <button class="btn" id="button"><img src="images/menu__btn.svg" alt="btn__menu"></button>
+        <ul class="menu__list" id="menu">
+          <li class="menu__list-item"><a href="#contacts" class="menu__list-link">Contacts</a></li>
+          <li class="menu__list-item"><a href="#profile" class="menu__list-link">Profile</a></li>
+          <li class="menu__list-item"><a href="#education" class="menu__list-link">Education</a></li>
+          <li class="menu__list-item"><a href="#projects" class="menu__list-link">Projects</a></li>
+          <li class="menu__list-item"><a href="#skills" class="menu__list-link">Skills</a></li>
+          <li class="menu__list-item"><a href="#code" class="menu__list-link">Code</a></li>
+          <li class="menu__list-item"><a href="#languages" class="menu__list-link">Languages</a></li>
+        </ul>
+      </nav>
+      <div class="jump" id="jump"></div>
+    </div>
+  </header>
+  <main>
+    <section class="profile" id="profile">
+      <div class="container">
+        <div class="two__columns">
+          <div class="column__left">
+            <div class="profile__photo">
+              <img class="photo" src="myphoto.JPG" alt="my photo">
+            </div>
+          </div>
+          <div class="column__right">
+            <div class="profile__name">
+              <h1 class="profile__title">Oksana Promanenkova</h1>
+              <h2 class="profile__subtitle">Junior front-end developer</h2>
+              <div class="profile__content">
+                <h3 class="subtitle">Profile</h3>
+                <p class="profile__text"> My name is Oksana. I was born is Minsk and have lived all my life here.
+                  I'm married and have two children - a daughter (16 y.o.) and a son (11 y.o.). </p>
+                <br>
+                <p class="profile__text">
+                  After I graduated, I worked as an accountant. Now I'm a chief accountant in an indastrial company.
+                </p>
+                <br>
+                <p class="profile__text">
+                  I'm hard-working and responsible person. I can focus on the task and structure my work schedule well.
+                  I like to work
+                  with numbers and computer, but it became boring to work as an accountant. I want to create something
+                  interesting and
+                  necessary. Therefore I am studying in RS School. Of course, it's difficult to combine work, family
+                  duties and studying
+                  but I try to find a few hours for my hobbies - fitness, learning English and programming.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="two__columns">
+        <div class="column__left">
+          <section class="contacts" id="contacts">
+            <div class="inner__left">
+              <h3 class="subtitle subtitle--center">Contacts</h3>
+              <ul class="contacts__items">
+                <li class="contacts__item icon--location"> <a
+                    href="https://yandex.by/maps/geo/53177019/?ll=27.727503%2C53.882847&z=10"
+                    class="contacts__link">Minsk,
+                    Belarus</a></li>
+                <li class="contacts__item icon--phone"> <a href="tel:+375291516414" class="contacts__link"> +375 29 151
+                    64
+                    14</a></li>
+                <li class="contacts__item icon--email">
+                  <a class="contacts__link" href="mailto:tropikSoft@yandex.ru">tropiksoft@yandex.ru</a>
+                </li>
+                <li class="contacts__item icon--telegram"><a href="https://t.me/oksa_pv"
+                    class="contacts__link">@oksa_pv</a>
+                </li>
+                <li class="contacts__item icon--github"> <a href="https://github.com/tropikSoft"
+                    class="contacts__link">tropikSoft
+                    (Oksana)</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="skills" id="skills">
+            <div class="inner__left">
+              <h3 class="subtitle subtitle--center">Skills</h3>
+              <ul class="skills__items">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">BEM</li>
+              </ul>
+            </div>
+          </section>
+          <section class="education" id="education">
+            <div class="inner__left">
+              <h3 class="subtitle subtitle--center">Education</h3>
+              <ul class="education__items">
+                <li class="education__item"><span>1999-2004</span> - Belarusian State Economic Iniversity.
+                  Specialization:
+                  Accounting and Economics, bachelor’s degree</li>
+                <li class="education__item">Pre-school course RS School (in progress)</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="column__right">
+          <section class="code" id="code">
+            <h3 class="subtitle">Code example</h3>
+            <pre>
+                <code class="code">
+            const highAndLow = (numbers) => {
+
+                  let numberArr = numbers.split(' ');
+                  let numberMax = Math.max(...numberArr);
+                  let numberMin = Math.min(...numberArr);
+
+                      return `${numberMax} ${numberMin}`;
+
+            }
+                </code>
+          </pre>
+          </section>
+          <section class="projects" id="projects">
+            <h3 class="subtitle">Projects</h3>
+          </section>
+          <section class="languages" id="languages">
+            <h3 class="subtitle">Languages</h3>
+            <p class="language__text">Russian - Native</p>
+            <p class="language__text">English - A2</p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container container__footer">
+        <div class="footer__inner">
+          <div class="footer__user">
+            <a href="https://github.com/tropikSoft" class="contact__link-icon" target="_blank">
+              <img src="icons/git-hub.svg" alt="github">
+              <p>tropikSoft (Oksana)</p>
+            </a>
+          </div>
+
+          <p class="year">&copy; 2022</p>
+          <a href="https://app.rs.school/" class="footer__img-link" target="_blank">
+            <img src="icons/rs_school_js.svg" alt="rs_school_js">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
