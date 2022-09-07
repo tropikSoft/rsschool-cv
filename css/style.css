@@ -373,50 +373,96 @@ pre {
   }
 
   .menu__list {
-    position: absolute;
+    display: none;
+  }
+
+  .jump {
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    width: 100%;
+    height: 450px;
+    background-color: #191a58;
+    z-index: 100;
+    display: flex;
+    transition: 0.3s;
+  }
+
+  .jump.open {
     left: 0;
-    right: 0;
+  }
+
+.jump .menu__list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 50px 0;
+  overflow: auto;
+}
+
+.jump .menu__list>li {
+  width: 100%;
+}
+
+.jump .menu__list>li>a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(221, 80, 88);
+}
+
+.jump .menu__list>li>a:hover {
+  background-color: #fff;
+}
+
+.menu__list-item+.menu__list-item {
+  margin-left: 0px; 
+}
+  .header__menu {
+    position: fixed;
+    left: 0;
     top: 0;
-    display: block;
-    text-align: center;
-    transform: translateX(-200%);
-    transition: all .5s;
-  }
-
-  .header.header--active .ul {
-    transform: translateY(0%);
-  }
-
-  .profile__photo {
     width: 100%;
+    height: 75px;
+    background: rgb(221, 80, 88);
   }
 
-  .photo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    display: block;
-  }
+.profile__photo {
+  width: 100%;
+}
 
-  .two__columns {
-    display: inline-block;
-  }
+.photo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+}
 
-  .column__left,
-  .column__right {
-    width: 100%;
-  }
+.two__columns {
+  display: inline-block;
+}
 
-  .subtitle,
-  .profile__subtitle,
-  .profile__title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
+.column__left,
+.column__right {
+  width: 100%;
+}
 
-  .profile__title h1{
-    padding-top: 30px;
-    display: inline-block;
-  }
+.subtitle,
+.profile__subtitle,
+.profile__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.profile__title h1 {
+  padding-top: 30px;
+  display: inline-block;
+}
 }
