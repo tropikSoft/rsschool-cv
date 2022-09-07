@@ -10,7 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Front-end developer: Oksana Promanenkova</title>
 </head>
 
@@ -18,8 +18,8 @@
   <header class="header">
     <div class="container">
       <nav class="header__menu">
-        <button><img src="images/menu__btn.svg" alt="btn__menu"></button>
-        <ul class="menu__list">
+        <button class="btn" id="button"><img src="images/menu__btn.svg" alt="btn__menu"></button>
+        <ul class="menu__list" id="menu">
           <li class="menu__list-item"><a href="#contacts" class="menu__list-link">Contacts</a></li>
           <li class="menu__list-item"><a href="#profile" class="menu__list-link">Profile</a></li>
           <li class="menu__list-item"><a href="#education" class="menu__list-link">Education</a></li>
@@ -29,6 +29,7 @@
           <li class="menu__list-item"><a href="#languages" class="menu__list-link">Languages</a></li>
         </ul>
       </nav>
+      <div class="jump" id="jump"></div>
     </div>
   </header>
   <main>
@@ -157,7 +158,8 @@
         <div class="footer__inner">
           <div class="footer__user">
             <a href="https://github.com/tropikSoft" class="contact__link-icon" target="_blank">
-              <img src="icons/git-hub.svg" alt="github"><p>tropikSoft (Oksana)</p>
+              <img src="icons/git-hub.svg" alt="github">
+              <p>tropikSoft (Oksana)</p>
             </a>
           </div>
 
@@ -169,6 +171,6 @@
       </div>
     </footer>
   </main>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
